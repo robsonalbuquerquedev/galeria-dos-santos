@@ -103,7 +103,7 @@ export default function Home() {
                 icon: <FaWhatsapp />,
                 color: "#25D366",
               },
-            ].map((item, index) => (
+            ].map((item) => (
               <motion.a
                 key={item.label}
                 href={item.href}
